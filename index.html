@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IMSS Statistics Visualization</title>
+  <meta charset="utf-8">
+  <meta name="description" content="IMSS Statistics Visualization">
+  <meta name="author" content="Daniel Perez">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>IMSS Statistics Visualization</h1>
+    <h2>Insured versus Age</h2>
+    <p>Daniel Perez<br/>Programmer Analyst</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Background</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The <em>Mexican Social Security Institute</em> (IMSS) has been publishing interesting data that was previously not public. This is attributed to the new tendency that incites governments to be more transparent.</p>
+
+<p>But data alone is not that meaningful for most people. The retrieval and interpretation of these new datasets remains esoteric. Only very few persons are able to truly interpret the millions of records out there. </p>
+
+<p>There is a transparency, but it is obscured by the restrictions inherent to the data storge/retrieval techonologies.</p>
+
+<p><img src="assets/img/imss-logo.jpg" alt="IMSS LOGO"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Solution</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This is where this project comes in:
+I want the people to understand what the government is doing. I want for the information to be useful to us so that it becomes easier for the mexicans to draw educated conclusions.</p>
+
+<p>The project consists of a series of graphics based on datasets issued by the <em>Mexican Social Security Institute</em>. This first instance will depict the number of insured persons with the person&#39;s age group, profession&#39;s economic sector and state of residence as covariates.</p>
+
+<p>Can we  see a trend in the equality of sexes with regards to number of males/females insured?
+Which states have the most insured under and overaged persons?
+What is the economic sector with most insured people?</p>
+
+<p>All of this questions can be easily answered by glancing at graphs rather than by going through the labor-intense path of processing the data.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Examples</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Here&#39;s an example of the graphics I&#39;m aiming to provide:</p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="assets/img/imss-jalisco-sex.png" align="middle" height="100%" width="100%" margin="0 auto" /></p>
+
+<!-- ![JALISCO BY SEX](assets/img/imss-jalisco-sex.png) -->
+
+<p>A descriptive graph of the number of insured people by sex working on a certain sector on a certain state.</p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/img/imss-jalisco-sector.png" align="middle" height="100%" width="100%" margin="0 auto" /></p>
+
+<!-- ![JALISCO BY SECTOR](assets/img/imss-jalisco-sector.png) -->
+
+<p>A descriptive graph of the number of insured people by sector on a certain state.</p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Summary</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The project aims to make public information open to interpretation by anyone without having specifc knowledge of the underlying data structure.</p>
+
+<ul>
+<li>It is purely descriptive (at least the first phase of it).</li>
+<li>The demo of the first application is hosted in the shinyapps server <a href="https://mistirrin.shinyapps.io/IMSS">here</a>.</li>
+<li>I use data publicly available from <a href ="http://busca.datos.gob.mx/#/conjuntos/asegurados-en-el-imss">here</a>.</li>
+</ul>
+
+<p>Any feedback would be greatly appreciated.</p>
+
+<p>Thanks!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Background'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Solution'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Examples'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Summary'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
